@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import "./Background.css";
-import video1 from "../../Assets/video1.mp4";
-import image1 from "../../Assets/image1.png";
-import image2 from "../../Assets/image2.png";
-import image3 from "../../Assets/image3.png";
-import "./assets/main.jsx";
-import "./assets/vite.svg";
+import video1 from "./Assets/video1.mp4";
+import image1 from "./Assets/image1.png";
+import image2 from "./Assets/image2.png";
+import image3 from "./Assets/image3.png";
+import "./Assets/main.jsx";
+import "./Assets/vite.svg";
 
 const Background = ({ playStatus, heroCount }) => {
   if (playStatus) {
