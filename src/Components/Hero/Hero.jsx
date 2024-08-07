@@ -1,4 +1,5 @@
 import "./Hero.css";
+import PropTypes from "prop-types";
 import arrow_btn from "../../Assets/arrow_btn.png";
 import play_icon from "../../Assets/play_icon.png";
 import pause_icon from "../../Assets/pause_icon.png";
@@ -46,6 +47,17 @@ const Hero = ({
       </div>
     </div>
   );
+};
+
+Hero.propTypes = {
+  heroData: PropTypes.shape({
+    text1: PropTypes.string.isRequired,
+    text2: PropTypes.string.isRequired,
+  }).isRequired,
+  setHeroCount: PropTypes.func.isRequired,
+  heroCount: PropTypes.number.isRequired,
+  setPlayStatus: PropTypes.func.isRequired,
+  playStatus: PropTypes.bool.isRequired,
 };
 
 export default Hero;
