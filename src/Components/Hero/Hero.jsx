@@ -1,10 +1,8 @@
 import "./Hero.css";
 import PropTypes from "prop-types";
-import arrow_btn from "./Assets/arrow_btn.png";
-import play_icon from "./Assets/play_icon.png";
-import pause_icon from "./Assets/pause_icon.png";
-import "./Assets/main.jsx";
-import "./Assets/vite.svg";
+import arrow_btn from "../../assets/arrow_btn.png";
+import play_icon from "../../assets/play_icon.png";
+import pause_icon from "../../assets/pause_icon.png";
 
 const Hero = ({
   heroData,
