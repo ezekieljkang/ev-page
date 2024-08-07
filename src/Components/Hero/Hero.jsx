@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import arrow_btn from "../../Assets/arrow_btn.png";
 import play_icon from "../../Assets/play_icon.png";
 import pause_icon from "../../Assets/pause_icon.png";
+import "./assets/main.jsx";
+import "./assets/vite.svg";
 
 const Hero = ({
   heroData,
